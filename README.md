@@ -41,9 +41,9 @@ If you're using the user provider, you'll also need to make sure `auth.driver` i
 
 ## Features
 
-[x] Entity Manager
-[x] Console commands
-[x] User provider
-[x] Basic configuration
-[] Test coverage
-[] Improve configuration and extensibility
+- [x] Entity Manager
+- [x] Console commands
+- [x] User provider
+- [x] Basic configuration
+- [ ] Test coverage
+- [ ] Improve configuration and extensibility
