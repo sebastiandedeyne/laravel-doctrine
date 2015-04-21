@@ -27,6 +27,15 @@ php artisan vendor:publish --provider="Sebdd\LaravelDoctrine\DoctrineServiceProv
 
 If you're using the user provider, you'll also need to make sure `auth.driver` is set to "doctrine" and `auth.model` is correct.
 
+## Features
+
+- [x] Entity Manager
+- [x] Console commands
+- [x] User provider
+- [x] Basic configuration
+- [ ] Test coverage
+- [ ] Improve configuration and extensibility
+
 ## Configuration
 
 ### Options
@@ -38,12 +47,3 @@ If you're using the user provider, you'll also need to make sure `auth.driver` i
 **columns.identifier**  string ('id')  The user identifier column
 
 **columns.remember_token**  string ('id')  The user remember_token column
-
-## Features
-
-- [x] Entity Manager
-- [x] Console commands
-- [x] User provider
-- [x] Basic configuration
-- [ ] Test coverage
-- [ ] Improve configuration and extensibility
