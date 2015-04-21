@@ -1,0 +1,27 @@
+{
+    "name": "sebdd/laravel-doctrine",
+    "description": "Doctrine implementation in laravel 5",
+    "keywords": ["orm", "database", "laravel", "doctrine"],
+    "homepage": "https://github.com/sebastiandedeyne/laravel-doctrine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian De Deyne",
+            "email": "hello@sebastiandedeyne.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/console": "5.*",
+        "illuminate/contracts": "5.*",
+        "illuminate/support": "5.*",
+        "doctrine/orm": "2.5.*",
+        "symfony/console": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sebdd\\LaravelDoctrine\\": "src/"
+        }
+    }
+}
