@@ -7,7 +7,7 @@ use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Hashing\Hasher;
 
-class DoctrineUserProvider implements UserProvider
+class UserProvider implements UserProvider
 {
     /**
      * An instance of the entity manager.

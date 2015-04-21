@@ -107,7 +107,7 @@ class DoctrineServiceProvider extends ServiceProvider
      */
     protected function getUserProvider(Application $app)
     {
-        return new DoctrineUserProvider(
+        return new UserProvider(
             $app->make(EntityManager::class),
             config('auth.model'),
             config('doctrine.user_provider.columns.identifier'),
