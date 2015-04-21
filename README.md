@@ -34,7 +34,6 @@ If you're using the user provider, you'll also need to make sure `auth.driver` i
 - [x] User provider
 - [x] Basic configuration
 - [ ] Test coverage
-- [ ] Improve configuration and extensibility
 
 ## Configuration
 
