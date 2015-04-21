@@ -38,12 +38,10 @@ If you're using the user provider, you'll also need to make sure `auth.driver` i
 
 ## Configuration
 
-### Options
-
-#### user_provider
+### user_provider
 
 **enabled**  bool (true)  Registers a doctrine user provider
 
 **columns.identifier**  string ('id')  The user identifier column
 
-**columns.remember_token**  string ('id')  The user remember_token column
+**columns.remember_token**  string ('remember_token')  The user remember_token column
