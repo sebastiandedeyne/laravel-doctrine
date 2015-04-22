@@ -3,11 +3,11 @@
 namespace Sebdd\LaravelDoctrine;
 
 use Doctrine\ORM\EntityManager;
-use Illuminate\Contracts\Auth\UserProvider;
+use Illuminate\Contracts\Auth\UserProvider as UserProviderContract;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Hashing\Hasher;
 
-class UserProvider implements UserProvider
+class UserProvider implements UserProviderContract
 {
     /**
      * An instance of the entity manager.
